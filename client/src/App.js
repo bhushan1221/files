@@ -33,12 +33,12 @@ console.log("token",token)
 
   return (
     <div className="App">
-      <h1>React App File Uploading</h1>
+      <h1 className="t">React App File Uploading</h1>
       <form onSubmit={onSubmitHandler}>
         <input type="file" onChange={fileChangeHandler} />
         <br />
         <br />
-        <button type="submit">Submit File to Backend</button>
+        <button className="button" type="submit">Submit File to Backend</button>
       </form>
     </div>
   );
